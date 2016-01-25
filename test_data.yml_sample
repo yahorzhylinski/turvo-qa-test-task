@@ -1,0 +1,7 @@
+pages:
+  account_documents:
+    id: .tu-card.entity-card.document-entity-card.no-hero.create-btn.ng-scope
+    link: "http://php.itrexgroup.com:3001/#/accounts/14788/documents"
+  new_account_document:
+    id: a[ng-click="documents.createNew()"]
+    link: a[ng-click="documents.createNew()"]
