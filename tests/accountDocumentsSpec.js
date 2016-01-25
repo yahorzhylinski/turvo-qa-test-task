@@ -9,8 +9,7 @@ describe('account documents js', function() {
   });
 
   it('should have "add new document btn"', function() {
-    // var newDocumentBtn = element.all(by.css(new page_objects.data_config().getPropertyByName("pages.account_documents.new_document_id")));
-    // expect(newDocumentBtn).isPresent()).toBe(true);
+    var newAccountDocumentPage = new page_objects.new_account_document_page();
   });
 
 });

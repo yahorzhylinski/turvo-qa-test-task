@@ -26,7 +26,7 @@ BasePage.prototype.goViaUrl = function(link) {
 }
 
 BasePage.prototype.goViaBtn = function(elementId) {
-  element(by.css(elementId)).click();
+  element(by.css(new DataConfig().getPropertyByName(elementId))).click();
   checkIfPageCorrect();
 }
 

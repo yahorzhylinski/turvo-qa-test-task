@@ -1,6 +1,7 @@
 var DataConfig = require('./data_config');
 var BasePage = require('./pages/base_page');
 var AccountDocumentsPage = require('./pages/account_documents_page');
+var NewAccountDocumentPage = require('./pages/new_account_document_page');
 
 function extend(base, sub) {
   var origProto = sub.prototype;
@@ -22,5 +23,6 @@ extend(BasePage, AccountDocumentsPage);
 
 module.exports = {
   data_config: DataConfig,
-  account_documents_page: AccountDocumentsPage 
+  account_documents_page: AccountDocumentsPage,
+  new_account_document_page: NewAccountDocumentPage
 }
